@@ -22,9 +22,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.pinkAccent,
-      body: Text(
-        'Hola que tal'
-      ),// This trailing comma makes auto-formatting nicer for build methods.
+      body: SafeArea(
+        child: Text(
+          'Hola que tal'
+      ),)
     );
   }
 }
